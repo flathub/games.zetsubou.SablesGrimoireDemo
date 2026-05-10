@@ -60,4 +60,13 @@
 		<color type="primary" scheme_preference="light">#ffbe6f</color>
 		<color type="primary" scheme_preference="dark">#3d3846</color>
 	</branding>
+	<supports>
+		<control>keyboard</control>
+		<control>pointing</control>
+		<control>touch</control>
+		<control>gamepad</control>
+	</supports>
+	<requires>
+		<display_length compare="ge">768</display_length>
+	</requires>
 </component>
