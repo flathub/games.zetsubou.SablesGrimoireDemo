@@ -32,7 +32,9 @@
 		</release>
 	</releases>
 	<project_license>LicenseRef-proprietary</project_license>
-	<developer_name>Zetsubou Games</developer_name>
+	<developer id="games.zetsubou">
+		<name>Zetsubou Games</name>
+	</developer>
 	<screenshots>
 		<screenshot type="default">
 			<image type="source">https://cdn.zetsubou.games/Flatpak/SablesGrimoireDemo/screenshots/1.jpg</image>
