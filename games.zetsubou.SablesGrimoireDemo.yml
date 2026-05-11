@@ -1,6 +1,6 @@
 app-id: games.zetsubou.SablesGrimoireDemo
 runtime: org.freedesktop.Platform
-runtime-version: '23.08'
+runtime-version: '25.08'
 sdk: org.freedesktop.Sdk
 command: SablesGrimoire.sh
 tags:
@@ -22,13 +22,13 @@ modules:
       - install -Dm644 games.zetsubou.SablesGrimoireDemo.png "/app/share/icons/hicolor/512x512/apps/games.zetsubou.SablesGrimoireDemo.png"
     sources:
       - type: archive
-        url: https://cdn.zetsubou.games/Flatpak/SablesGrimoireDemo/builds/v1.2.0-x86_64.tar.bz2
-        sha512: f9a222b1feb1f2e6b1321dbbb95a36a82f53ffea42d0b8bb05973ae060f474b6bcfe6e206977810a828d6d01c409bc2356dedea0308e499e0e87f25af9b0ce2c
+        url: https://gitlab.com/zetsubougames-builds/sables-grimoire-demo/-/releases/v1.10.0/downloads/sables-grimoire-demo-linux-amd64.zip
+        sha512: 3d294f63b6017c5a601a99d090883e885044a4b1de51faf343f5a0057ee053eaf9544bd935470083d4df8184c497cbe46a33aeeed75fadbe36d13f1aafe9a1fd
         only-arches:
           - x86_64
       - type: archive
-        url: https://cdn.zetsubou.games/Flatpak/SablesGrimoireDemo/builds/v1.2.0-aarch64.tar.bz2
-        sha512: 7eedd2b06234f919a939dbfb96ac9162efa7b220592bd6fcf4f37eaa52db57c444a456372be586f88bc07a4f2039e70cfd8bff1487f32d40c627cf09937ca902
+        url: https://gitlab.com/zetsubougames-builds/sables-grimoire-demo/-/releases/v1.10.0/downloads/sables-grimoire-demo-linux-aarch64.zip
+        sha512: 5673ef8c634a02ec5842ee71db9aedac71155337f3fd16e86d95941b1ca4fee6b7a087d7b53f5bd7725e3f14a234f57a4d7abbecfd293f0b9a63c2d3084518ee
         only-arches:
           - aarch64
       - type: file
